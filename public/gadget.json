@@ -1,0 +1,168 @@
+[
+    {
+      "product_id": "TAB001",
+      "product_title": "Android Tablet 10.1 inch",
+      "product_img": "https://i.ibb.co.com/cYcFR4j/Android-Tablet-PC-RAM-8-GB-ROM-256-GB-10-9-Inch-HD-Screen-Flat-Computer.jpg",
+      "category": "Tablet",
+      "price": 199.99,
+      "description": "A powerful Android tablet with a 10.1-inch display, perfect for streaming and browsing.",
+      "specification": ["10.1-inch display", "64GB storage", "6000mAh battery"],
+      "availability": "In Stock",
+      "rating": 4.3
+    },
+    {
+      "product_id": "PHN001",
+      "product_title": "Smartphone Pro 5G",
+      "product_img": "https://i.ibb.co.com/dt989R4/bd-galaxy-m55-5g-sm-m556-sm-m556blgdbng-thumb-542626587.jpg",
+      "category": "Phone",
+      "price": 599.99,
+      "description": "High-performance 5G smartphone with advanced camera features.",
+      "specification": ["6.5-inch OLED display", "128GB storage", "5G support", "Triple camera system"],
+      "availability": "In Stock",
+      "rating": 4.7
+    },
+    {
+      "product_id": "LAP001",
+      "product_title": "Ultrabook Laptop 13-inch",
+      "product_img": "https://i.ibb.co.com/bRXXCx2/download-1.jpg",
+      "category": "Laptop",
+      "price": 999.99,
+      "description": "Lightweight ultrabook with long battery life and powerful performance.",
+      "specification": ["13-inch display", "Intel i7 processor", "16GB RAM", "512GB SSD"],
+      "availability": "In Stock",
+      "rating": 4.6
+    },
+    {
+      "product_id": "HDP001",
+      "product_title": "https://i.ibb.co.com/Pwh01V7/download-3.jpg",
+      "product_img": "https://example.com/images/headphones.jpg",
+      "category": "Headphones",
+      "price": 149.99,
+      "description": "Premium wireless headphones with active noise cancellation.",
+      "specification": ["Over-ear design", "Bluetooth 5.0", "20-hour battery life", "Noise cancellation"],
+      "availability": "In Stock",
+      "rating": 4.8
+    },
+    {
+      "product_id": "TAB002",
+      "product_title": "Kids Tablet 7 inch",
+      "product_img": "https://i.ibb.co.com/nsyYvJ7/matepad-11-5.jpg",
+      "category": "Tablet",
+      "price": 79.99,
+      "description": "Kid-friendly tablet with parental controls and educational apps.",
+      "specification": ["7-inch display", "32GB storage", "Built-in parental controls"],
+      "availability": "Out of Stock",
+      "rating": 4.2
+    },
+    {
+      "product_id": "PHN002",
+      "product_title": "Budget Smartphone",
+      "product_img": "https://i.ibb.co.com/0CWcvM8/images-1.jpg",
+      "category": "Phone",
+      "price": 149.99,
+      "description": "Affordable smartphone with essential features and a good camera.",
+      "specification": ["5.5-inch display", "32GB storage", "Dual camera", "3000mAh battery"],
+      "availability": "In Stock",
+      "rating": 4.0
+    },
+    {
+      "product_id": "LAP002",
+      "product_title": "Gaming Laptop 15.6-inch",
+      "product_img": "https://i.ibb.co.com/y46LjRY/download-2.jpg",
+      "category": "Laptop",
+      "price": 1299.99,
+      "description": "High-performance gaming laptop with dedicated graphics card.",
+      "specification": ["15.6-inch FHD display", "AMD Ryzen 7", "16GB RAM", "1TB SSD", "NVIDIA GTX 1660"],
+      "availability": "In Stock",
+      "rating": 4.6
+    },
+    {
+      "product_id": "HDP002",
+      "product_title": "True Wireless Earbuds",
+      "product_img": "https://i.ibb.co.com/Ld5RGYV/download-4.jpg",
+      "category": "Headphones",
+      "price": 59.99,
+      "description": "Compact and comfortable true wireless earbuds with deep bass.",
+      "specification": ["In-ear design", "Bluetooth 5.1", "6-hour battery life", "Water resistant"],
+      "availability": "In Stock",
+      "rating": 4.4
+    },
+    {
+      "product_id": "PHN003",
+      "product_title": "Foldable Smartphone",
+      "product_img": "https://i.ibb.co.com/P9Cc6zY/images.png",
+      "category": "Phone",
+      "price": 1199.99,
+      "description": "Innovative foldable smartphone with a flexible screen.",
+      "specification": ["7.2-inch foldable display", "256GB storage", "5G support", "Dual camera"],
+      "availability": "In Stock",
+      "rating": 4.5
+    },
+    {
+      "product_id": "TAB003",
+      "product_title": "Pro Tablet 12.9 inch",
+      "product_img": "https://i.ibb.co.com/9b0wGky/Tablet-PCD-meet-our-galaxy-tablets-01-Tab-S9-series-MO.jpg",
+      "category": "Tablet",
+      "price": 799.99,
+      "description": "High-end tablet with powerful performance for creative tasks.",
+      "specification": ["12.9-inch display", "256GB storage", "Stylus support", "8GB RAM"],
+      "availability": "In Stock",
+      "rating": 4.8
+    },
+    {
+      "product_id": "LAP003",
+      "product_title": "2-in-1 Convertible Laptop",
+      "product_img": "https://i.ibb.co.com/NrHGW6v/download.jpg",
+      "category": "Laptop",
+      "price": 849.99,
+      "description": "Versatile 2-in-1 laptop with a 360-degree hinge for tablet mode.",
+      "specification": ["14-inch touchscreen", "Intel i5", "8GB RAM", "256GB SSD"],
+      "availability": "Out of Stock",
+      "rating": 4.4
+    },
+    {
+      "product_id": "HDP003",
+      "product_title": "Studio Headphones",
+      "product_img": "https://i.ibb.co.com/YXT0HYS/download-5.jpg",
+      "category": "Headphones",
+      "price": 199.99,
+      "description": "Professional-grade studio headphones with high-fidelity sound.",
+      "specification": ["Over-ear design", "Wired", "Closed-back", "40mm drivers"],
+      "availability": "In Stock",
+      "rating": 4.7
+    },
+    {
+      "product_id": "PHN004",
+      "product_title": "Flagship Smartphone Max",
+      "product_img": "https://i.ibb.co.com/6mT1b53/images-2.jpg",
+      "category": "Phone",
+      "price": 1099.99,
+      "description": "Top-of-the-line smartphone with cutting-edge technology.",
+      "specification": ["6.8-inch OLED display", "512GB storage", "5G support", "Quad camera system"],
+      "availability": "In Stock",
+      "rating": 4.9
+    },
+    {
+      "product_id": "LAP004",
+      "product_title": "Business Laptop 14-inch",
+      "product_img": "https://i.ibb.co.com/bJdXztd/images.jpg",
+      "category": "Laptop",
+      "price": 899.99,
+      "description": "Reliable business laptop with enhanced security features.",
+      "specification": ["14-inch display", "Intel i5", "8GB RAM", "512GB SSD", "Fingerprint reader"],
+      "availability": "In Stock",
+      "rating": 4.5
+    },
+    {
+      "product_id": "HDP004",
+      "product_title": "Gaming Headset with Surround Sound",
+      "product_img": "https://i.ibb.co.com/TRyK6Gn/download-6.jpg",
+      "category": "Headphones",
+      "price": 89.99,
+      "description": "Immersive gaming headset with 7.1 surround sound.",
+      "specification": ["Over-ear design", "Wired", "7.1 surround sound", "LED lighting"],
+      "availability": "Out of Stock",
+      "rating": 4.3
+    }
+  ]
+  
