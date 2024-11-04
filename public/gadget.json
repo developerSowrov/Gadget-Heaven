@@ -1,7 +1,7 @@
 [
     {
       "product_id": "TAB001",
-      "product_title": "Android Tablet 10.1 inch",
+      "product_title": "Android Tablet",
       "product_img": "https://i.ibb.co.com/cYcFR4j/Android-Tablet-PC-RAM-8-GB-ROM-256-GB-10-9-Inch-HD-Screen-Flat-Computer.jpg",
       "category": "Tablet",
       "price": 199.99,
@@ -12,7 +12,7 @@
     },
     {
       "product_id": "PHN001",
-      "product_title": "Smartphone Pro 5G",
+      "product_title": " Pro 5G",
       "product_img": "https://i.ibb.co.com/dt989R4/bd-galaxy-m55-5g-sm-m556-sm-m556blgdbng-thumb-542626587.jpg",
       "category": "Phone",
       "price": 599.99,
@@ -23,7 +23,7 @@
     },
     {
       "product_id": "LAP001",
-      "product_title": "Ultrabook Laptop 13-inch",
+      "product_title": "Ultrabook Laptop",
       "product_img": "https://i.ibb.co.com/bRXXCx2/download-1.jpg",
       "category": "Laptop",
       "price": 999.99,
@@ -34,8 +34,8 @@
     },
     {
       "product_id": "HDP001",
-      "product_title": "https://i.ibb.co.com/Pwh01V7/download-3.jpg",
-      "product_img": "https://example.com/images/headphones.jpg",
+      "product_title": " Wl Headphone",
+      "product_img": "https://i.ibb.co.com/rGgw3pd/download-7.jpg",
       "category": "Headphones",
       "price": 149.99,
       "description": "Premium wireless headphones with active noise cancellation.",
@@ -45,7 +45,7 @@
     },
     {
       "product_id": "TAB002",
-      "product_title": "Kids Tablet 7 inch",
+      "product_title": "Kids Tablet",
       "product_img": "https://i.ibb.co.com/nsyYvJ7/matepad-11-5.jpg",
       "category": "Tablet",
       "price": 79.99,
@@ -56,7 +56,7 @@
     },
     {
       "product_id": "PHN002",
-      "product_title": "Budget Smartphone",
+      "product_title": "Iphone",
       "product_img": "https://i.ibb.co.com/0CWcvM8/images-1.jpg",
       "category": "Phone",
       "price": 149.99,
@@ -67,7 +67,7 @@
     },
     {
       "product_id": "LAP002",
-      "product_title": "Gaming Laptop 15.6-inch",
+      "product_title": "Gaming Laptop ",
       "product_img": "https://i.ibb.co.com/y46LjRY/download-2.jpg",
       "category": "Laptop",
       "price": 1299.99,
@@ -78,7 +78,7 @@
     },
     {
       "product_id": "HDP002",
-      "product_title": "True Wireless Earbuds",
+      "product_title": "True  Earbuds",
       "product_img": "https://i.ibb.co.com/Ld5RGYV/download-4.jpg",
       "category": "Headphones",
       "price": 59.99,
@@ -89,7 +89,7 @@
     },
     {
       "product_id": "PHN003",
-      "product_title": "Foldable Smartphone",
+      "product_title": "Foldable Phone",
       "product_img": "https://i.ibb.co.com/P9Cc6zY/images.png",
       "category": "Phone",
       "price": 1199.99,
@@ -100,7 +100,7 @@
     },
     {
       "product_id": "TAB003",
-      "product_title": "Pro Tablet 12.9 inch",
+      "product_title": "Pro Tablet",
       "product_img": "https://i.ibb.co.com/9b0wGky/Tablet-PCD-meet-our-galaxy-tablets-01-Tab-S9-series-MO.jpg",
       "category": "Tablet",
       "price": 799.99,
@@ -111,7 +111,7 @@
     },
     {
       "product_id": "LAP003",
-      "product_title": "2-in-1 Convertible Laptop",
+      "product_title": "Macbook",
       "product_img": "https://i.ibb.co.com/NrHGW6v/download.jpg",
       "category": "Laptop",
       "price": 849.99,
@@ -122,7 +122,7 @@
     },
     {
       "product_id": "HDP003",
-      "product_title": "Studio Headphones",
+      "product_title": "Studio HD",
       "product_img": "https://i.ibb.co.com/YXT0HYS/download-5.jpg",
       "category": "Headphones",
       "price": 199.99,
@@ -133,7 +133,7 @@
     },
     {
       "product_id": "PHN004",
-      "product_title": "Flagship Smartphone Max",
+      "product_title": "Flagship Max",
       "product_img": "https://i.ibb.co.com/6mT1b53/images-2.jpg",
       "category": "Phone",
       "price": 1099.99,
@@ -144,7 +144,7 @@
     },
     {
       "product_id": "LAP004",
-      "product_title": "Business Laptop 14-inch",
+      "product_title": "Business Laptop",
       "product_img": "https://i.ibb.co.com/bJdXztd/images.jpg",
       "category": "Laptop",
       "price": 899.99,
@@ -155,7 +155,7 @@
     },
     {
       "product_id": "HDP004",
-      "product_title": "Gaming Headset with Surround Sound",
+      "product_title": "Gaming Headset",
       "product_img": "https://i.ibb.co.com/TRyK6Gn/download-6.jpg",
       "category": "Headphones",
       "price": 89.99,

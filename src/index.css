@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn-c{
+    color:#9538E2 ;
+}
+:hover.btn-c{
+    background-color: #9538E2;
+}

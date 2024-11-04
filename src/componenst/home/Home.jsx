@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Gadget from "./gadget/Gadget";
+import Singlegadget from "./gadget/Singlegadget";
 
 const Home = () => {
   const [gadgets, setGadget] = useState([]);
@@ -38,14 +38,15 @@ const Home = () => {
         </div>
       </div>
       <p className="text-3xl my-10 font-bold">Explore Cutting-Edge Gadgets</p>
-      <div>
-        {gadgets.map((gadget) => {
-          <Gadget key={gadget.product_id} gadget={gadget}></Gadget>;
-        })}
-        <p>{gadgets.length}</p>
+      <div className="flex">
+        <div className="w-2/12"></div>
+        <div className="w-10/12 mb-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+          {gadgets.map((singleGadget) => (
+            <Singlegadget singleGadget={singleGadget}></Singlegadget>
+          ))}
+        </div>
       </div>
     </div>
   );
 };
-
 export default Home;
