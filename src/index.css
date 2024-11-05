@@ -8,3 +8,16 @@
 :hover.btn-c{
     background-color: #9538E2;
 }
+.active{
+    padding: 10px;
+    background-color: #9538E2;
+    border-radius: 10px;
+    color: white;
+}
+
+.diactive{
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.354);
+    border-radius: 10px;
+    color: black;
+}

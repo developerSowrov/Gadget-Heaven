@@ -1,7 +1,8 @@
 import React from "react";
 
-const Singlegadget = ({ categori }) => {
-  const { product_id, price, product_img, product_title } = categori;
+const HeadPhoneData = ({ headphone }) => {
+  const { product_id, price, product_img, product_title } = headphone;
+
   return (
     <div className="card  bg-base-100 shadow-2xl">
       <figure>
@@ -22,4 +23,4 @@ const Singlegadget = ({ categori }) => {
   );
 };
 
-export default Singlegadget;
+export default HeadPhoneData;

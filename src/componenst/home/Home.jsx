@@ -1,13 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Singlegadget from "./gadget/Singlegadget";
+import { NavLink, Outlet } from "react-router-dom";
 
 const Home = () => {
-  const [gadgets, setGadget] = useState([]);
-  useEffect(() => {
-    fetch("/public/gadget.json")
-      .then((res) => res.json())
-      .then((data) => setGadget(data));
-  }, []);
   return (
     <div>
       <div className="hero bg-[#9538E2] text-white rounded-xl mt-5 pb-56">
@@ -21,9 +16,11 @@ const Home = () => {
               next level. From smart devices to the coolest accessories, we have
               it all!
             </p>
-            <button className="btn text-[#9538E2] text-base  font-bold rounded-3xl">
-              Shop Now
-            </button>
+            <NavLink to={"dashboard"}>
+              <button className="btn text-[#9538E2] text-base  font-bold rounded-3xl">
+                Shop Now
+              </button>
+            </NavLink>
           </div>
         </div>
       </div>
@@ -38,13 +35,25 @@ const Home = () => {
         </div>
       </div>
       <p className="text-3xl my-10 font-bold">Explore Cutting-Edge Gadgets</p>
-      <div className="flex">
-        <div className="w-2/12"></div>
-        <div className="w-10/12 mb-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-          {gadgets.map((singleGadget) => (
-            <Singlegadget singleGadget={singleGadget}></Singlegadget>
-          ))}
+      <div className="flex gap-5">
+        <div className="w-2/12 flex flex-col gap-5">
+          <NavLink to={"/"}>
+            <button>All Category</button>
+          </NavLink>
+          <NavLink to={"category/laptop"}>
+            <button className="">Laptop</button>
+          </NavLink>
+          <NavLink to={"category/tab"}>
+            <button className="">Tablet</button>
+          </NavLink>
+          <NavLink to={"category/phone"}>
+            <button>Phones</button>
+          </NavLink>
+          <NavLink to={"category/headphone"}>
+            <button className="">Headphones</button>
+          </NavLink>
         </div>
+        <Outlet></Outlet>
       </div>
     </div>
   );
