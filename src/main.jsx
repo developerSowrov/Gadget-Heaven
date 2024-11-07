@@ -9,10 +9,10 @@ import Home from "./componenst/home/Home.jsx";
 import Dashboard from "./componenst/dashboard/Dashboard.jsx";
 import Errorpage from "./componenst/errorPage/Errorpage.jsx";
 import Allcategori from "./componenst/allcategori/Allcategori.jsx";
-import Laptop from "./componenst/laptop/Laptop.jsx";
-import Tablet from "./componenst/tab/Tablet.jsx";
-import Phone from "./componenst/phone/Phone.jsx";
-import Headphone from "./componenst/headphone/Headphone.jsx";
+import BtnCategory from "./componenst/laptop/BtnCategory.jsx";
+// import Tablet from "./componenst/tab/Tablet.jsx";
+// import Phone from "./componenst/phone/Phone.jsx";
+// import Headphone from "./componenst/headphone/Headphone.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -29,23 +29,8 @@ const router = createBrowserRouter([
             loader: () => fetch("/public/gadget.json"),
           },
           {
-            path: "/category/laptop",
-            element: <Laptop></Laptop>,
-            loader: () => fetch("/public/gadget.json"),
-          },
-          {
-            path: "/category/tab",
-            element: <Tablet></Tablet>,
-            loader: () => fetch("/public/gadget.json"),
-          },
-          {
-            path: "/category/phone",
-            element: <Phone></Phone>,
-            loader: () => fetch("/public/gadget.json"),
-          },
-          {
-            path: "/category/headphone",
-            element: <Headphone></Headphone>,
+            path: "/category/:category",
+            element: <BtnCategory></BtnCategory>,
             loader: () => fetch("/public/gadget.json"),
           },
         ],

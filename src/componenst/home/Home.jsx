@@ -40,16 +40,16 @@ const Home = () => {
           <NavLink to={"/"}>
             <button>All Category</button>
           </NavLink>
-          <NavLink to={"category/laptop"}>
+          <NavLink to={"category/Laptop"}>
             <button className="">Laptop</button>
           </NavLink>
-          <NavLink to={"category/tab"}>
+          <NavLink to={"category/Tablet"}>
             <button className="">Tablet</button>
           </NavLink>
-          <NavLink to={"category/phone"}>
-            <button>Phones</button>
+          <NavLink to={"category/Phone"}>
+            <button>Phone</button>
           </NavLink>
-          <NavLink to={"category/headphone"}>
+          <NavLink to={"category/Headphones"}>
             <button className="">Headphones</button>
           </NavLink>
         </div>

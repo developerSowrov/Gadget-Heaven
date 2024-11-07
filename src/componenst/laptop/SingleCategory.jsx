@@ -1,8 +1,7 @@
 import React from "react";
 
-const TabData = ({ teb }) => {
-  const { product_id, price, product_img, product_title } = teb;
-
+const SingleCategory = ({ singelLaptop }) => {
+  const { product_id, price, product_img, product_title } = singelLaptop;
   return (
     <div className="card  bg-base-100 shadow-2xl">
       <figure>
@@ -23,4 +22,4 @@ const TabData = ({ teb }) => {
   );
 };
 
-export default TabData;
+export default SingleCategory;

@@ -1,5 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { IoCartOutline } from "react-icons/io5";
+import { MdFavoriteBorder } from "react-icons/md";
 
 const Header = () => {
   return (
@@ -52,8 +54,13 @@ const Header = () => {
           </li>
         </ul>
       </div>
-      <div className="navbar-end">
-        <a className="btn">Button</a>
+      <div className="navbar-end flex gap-3">
+        <div className="p-2  bg-green-600 rounded-full text-white">
+          <IoCartOutline className="size-7 " />
+        </div>
+        <div className="p-2  bg-green-600 rounded-full text-white">
+          <MdFavoriteBorder className="size-7 " />
+        </div>
       </div>
     </div>
   );
