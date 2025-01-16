@@ -36,7 +36,7 @@ const Details = () => {
           <h2 className="text-xl font-bold text-gray-800 mb-2">
             {product_title}
           </h2>
-          <p className="text-lg text-gray-600 font-semibold mb-2">${price}</p>
+          <p className="text-lg text-gray-600 font-semibold mb-2">$ {price}</p>
 
           <span className="px-3 py-1 text-green-800 bg-green-200 rounded-full text-sm font-medium mb-2">
             {availability}
