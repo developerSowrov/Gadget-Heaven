@@ -9,7 +9,8 @@ import Home from "./componenst/home/Home.jsx";
 import Dashboard from "./componenst/dashboard/Dashboard.jsx";
 import Errorpage from "./componenst/errorPage/Errorpage.jsx";
 import Allcategori from "./componenst/allcategori/Allcategori.jsx";
-import BtnCategory from "./componenst/laptop/BtnCategory.jsx";
+import BtnCategory from "./componenst/Category/BtnCategory.jsx";
+import Details from "./componenst/details/Details.jsx";
 // import Tablet from "./componenst/tab/Tablet.jsx";
 // import Phone from "./componenst/phone/Phone.jsx";
 // import Headphone from "./componenst/headphone/Headphone.jsx";
@@ -37,6 +38,11 @@ const router = createBrowserRouter([
       },
       { path: "/statics", element: <Static></Static> },
       { path: "/dashboard", element: <Dashboard></Dashboard> },
+      {
+        path: "/details/:id",
+        element: <Details></Details>,
+        loader: () => fetch("/public/gadget.json"),
+      },
     ],
   },
 ]);

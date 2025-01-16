@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Singlegadget from "./gadget/Singlegadget";
-import { NavLink, Outlet } from "react-router-dom";
+import { NavLink, Outlet, useLoaderData, useLocation } from "react-router-dom";
 
 const Home = () => {
   return (
     <div>
-      <div className="hero bg-[#9538E2] text-white rounded-xl mt-5 pb-56">
+      <div className="hero bg-[#9538E2] text-white rounded-t-none rounded-xl pb-56">
         <div className="hero-content text-center">
           <div className="">
             <h1 className="text-3xl md:text-5xl font-bold px-5 pt-5">

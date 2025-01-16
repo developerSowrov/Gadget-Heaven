@@ -1,11 +1,16 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { IoCartOutline } from "react-icons/io5";
 import { MdFavoriteBorder } from "react-icons/md";
 
 const Header = () => {
+  const location = useLocation();
   return (
-    <div className="navbar -mt-10 pt-10">
+    <div
+      className={`${
+        location?.pathname === "/" ? "bg-[#9538E2]" : "bg-white"
+      } navbar rounded-t-xl  `}
+    >
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -26,7 +31,7 @@ const Header = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] w-52 p-2 shadow"
           >
             <li>
               <NavLink to={"/"}>Home</NavLink>
