@@ -3,7 +3,7 @@ import { useLoaderData, useParams } from "react-router-dom";
 import { Rating } from "@smastrom/react-rating";
 
 import "@smastrom/react-rating/style.css";
-import { add } from "../../utils/utils";
+import { add, addwl } from "../../utils/utils";
 
 const Details = () => {
   const { id } = useParams();
@@ -21,8 +21,11 @@ const Details = () => {
     product_title,
   } = details;
 
-  const handleGadget = (gadget) => {
+  const addCart = (gadget) => {
     add(gadget);
+  };
+  const addWishlist = (gadget) => {
+    addwl(gadget);
   };
   return (
     <div>
@@ -67,12 +70,15 @@ const Details = () => {
 
           <div className="mt-2 flex items-center justify-center space-x-4">
             <button
-              onClick={() => handleGadget(details)}
+              onClick={() => addCart(details)}
               className="bg-purple-600 hover:bg-purple-700 text-white py-2 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2"
             >
               Add To Cart
             </button>
-            <button className="bg-gray-200 hover:bg-gray-300 text-gray-800 py-2 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2">
+            <button
+              onClick={() => addWishlist(details)}
+              className="bg-gray-200 hover:bg-gray-300 text-gray-800 py-2 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2"
+            >
               &#10084;
             </button>
           </div>

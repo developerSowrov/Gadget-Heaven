@@ -11,9 +11,6 @@ import Errorpage from "./componenst/errorPage/Errorpage.jsx";
 import Allcategori from "./componenst/allcategori/Allcategori.jsx";
 import BtnCategory from "./componenst/Category/BtnCategory.jsx";
 import Details from "./componenst/details/Details.jsx";
-// import Tablet from "./componenst/tab/Tablet.jsx";
-// import Phone from "./componenst/phone/Phone.jsx";
-// import Headphone from "./componenst/headphone/Headphone.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
