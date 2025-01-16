@@ -11,6 +11,8 @@ import Errorpage from "./componenst/errorPage/Errorpage.jsx";
 import Allcategori from "./componenst/allcategori/Allcategori.jsx";
 import BtnCategory from "./componenst/Category/BtnCategory.jsx";
 import Details from "./componenst/details/Details.jsx";
+import Cart from "./componenst/Cart/Cart.jsx";
+import Wishlist from "./componenst/wishlist/Wishlist";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -39,6 +41,14 @@ const router = createBrowserRouter([
         path: "/details/:id",
         element: <Details></Details>,
         loader: () => fetch("/public/gadget.json"),
+      },
+      {
+        path: "/dashboard/cart",
+        element: <Cart></Cart>,
+      },
+      {
+        path: "/dashboard/wishlist",
+        element: <Wishlist></Wishlist>,
       },
     ],
   },
