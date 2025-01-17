@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Singlegadget = ({ categori }) => {
   const { product_id, price, product_img, product_title } = categori;
@@ -15,7 +16,9 @@ const Singlegadget = ({ categori }) => {
         <h2 className=" text-2xl font-semibold mt-3">{product_title}</h2>
         <p className="text-[#09080f85] font-semibold my-1">Price:{price}$</p>
         <div className="card-actions justify-start mt-4">
-          <button className="btn btn-outline btn-c  ">Details</button>
+          <NavLink to={`/details/${product_id}`}>
+            <button className="btn btn-outline btn-c">Details</button>
+          </NavLink>{" "}
         </div>
       </div>
     </div>

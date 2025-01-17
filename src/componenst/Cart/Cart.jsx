@@ -5,11 +5,14 @@ import { get } from "../../utils/utils";
 const Cart = () => {
   const location = useLocation();
   const [carts, setCart] = useState([]);
-  const [sum, setSum] = useState(0);
   useEffect(() => {
     const cart = get();
     setCart(cart);
   }, []);
+  const desending = () => {
+    const order = [...carts].sort((a, b) => b.price - a.price);
+    setCart(order);
+  };
   return (
     <div>
       <div className="bg-[#9538E2] text-white pb-10 rounded-2xl">
@@ -50,9 +53,12 @@ const Cart = () => {
           <h2 className="text-xl md:text-2xl font-bold">Cart</h2>
           <div className="flex items-center gap-4">
             <p className="text-lg md:text-2xl font-bold">
-              Total cost: <span className="text-black">{sum}</span>
+              Total cost: <span className="text-black">$999.99</span>
             </p>
-            <button className="px-4 py-2  border border-purple-600  rounded-full font-bold text-sm text-purple-600 hover:bg-gray-200">
+            <button
+              onClick={desending}
+              className="px-4 py-2  border border-purple-600  rounded-full font-bold text-sm text-purple-600 hover:bg-gray-200"
+            >
               Sort by Price
             </button>
             <button className="px-4 py-2 bg-purple-600 text-white rounded-full text-lg font-semibold hover:bg-purple-700">
@@ -75,7 +81,7 @@ const Cart = () => {
                     {cart.description}
                   </p>
                   <p className="mt-2 font-bold text-gray-700">
-                    Price: <span className="text-black">{cart.price} </span>
+                    Price: <span className="text-black">{cart.price}</span>
                   </p>
                 </div>
               </div>
