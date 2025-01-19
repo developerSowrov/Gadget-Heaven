@@ -1,9 +1,30 @@
-# React + Vite
+# Project Documentation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live Website Link
 
-Currently, two official plugins are available:
+[Click here to view the live website](https://whimsical-rolypoly-048ed0.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# b10a8-gadget-heaven-developerSowrov
+## Requirement Document Link
+
+[Click here to view the requirement document](https://github.com/ProgrammingHero1/B10-A8-gadget-heaven/blob/main/Batch-10_Assignment-08.pdf)
+
+## React Fundamental Concepts Used
+
+- JSX
+- Components
+- Props
+- State
+- React Router
+- Hooks (e.g., useState, useEffect)
+
+## Data Handling and Management
+
+- Local Storage
+- Fetch API
+
+## Features of the Website/Project
+
+1. Responsive and mobile-friendly design.
+2. Dynamic routing using React Router.
+3. Data persistence using local storage
+4. Interactive and user-friendly UI/UX.
