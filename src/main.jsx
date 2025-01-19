@@ -13,6 +13,7 @@ import BtnCategory from "./componenst/Category/BtnCategory.jsx";
 import Details from "./componenst/details/Details.jsx";
 import Cart from "./componenst/Cart/Cart.jsx";
 import Wishlist from "./componenst/wishlist/Wishlist";
+import Contact from "./componenst/contact/Contact.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -26,12 +27,12 @@ const router = createBrowserRouter([
           {
             path: "/",
             element: <Allcategori></Allcategori>,
-            loader: () => fetch("/public/gadget.json"),
+            loader: () => fetch("/gadget.json"),
           },
           {
             path: "/category/:category",
             element: <BtnCategory></BtnCategory>,
-            loader: () => fetch("/public/gadget.json"),
+            loader: () => fetch("/gadget.json"),
           },
         ],
       },
@@ -40,7 +41,7 @@ const router = createBrowserRouter([
       {
         path: "/details/:id",
         element: <Details></Details>,
-        loader: () => fetch("/public/gadget.json"),
+        loader: () => fetch("/gadget.json"),
       },
       {
         path: "/dashboard/cart",
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
       {
         path: "/dashboard/wishlist",
         element: <Wishlist></Wishlist>,
+      },
+      {
+        path: "/contact",
+        element: <Contact></Contact>,
       },
     ],
   },

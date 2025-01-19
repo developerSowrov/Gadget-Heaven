@@ -1,10 +1,14 @@
-import React, { useEffect, useState } from "react";
-import Singlegadget from "./gadget/Singlegadget";
-import { NavLink, Outlet, useLoaderData, useLocation } from "react-router-dom";
+import React from "react";
+import pic from "../../../public/assets/banner.jpg";
+import { NavLink, Outlet } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const Home = () => {
   return (
     <div>
+      <Helmet>
+        <title>Gadget | Home</title>
+      </Helmet>
       <div className="hero bg-[#9538E2] text-white rounded-t-none rounded-xl pb-56">
         <div className="hero-content text-center">
           <div className="">
@@ -28,7 +32,7 @@ const Home = () => {
       <div className=" mx-auto ring-2 ring-white p-4  w-11/12 -mt-48 rounded-2xl bg-[#ffffff3f] relative z-10 ">
         <div className="  bg-white rounded-2xl">
           <img
-            src="/public/assets/banner.jpg"
+            src={pic}
             className=" w-full object-cover h-[480px] rounded-2xl"
             alt=""
           />

@@ -1,11 +1,15 @@
 import React from "react";
 import { NavLink, useLocation } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const Dashboard = () => {
   const location = useLocation(); // Get current path
 
   return (
     <div>
+      <Helmet>
+        <title>Gadget | Dashboard</title>
+      </Helmet>
       <div className="bg-[#9538E2] text-white pb-10 rounded-2xl">
         <h5 className="text-3xl pt-8 pb-4 font-bold">Dashboard</h5>
         <p className="w-7/12 mx-auto">

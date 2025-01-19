@@ -4,6 +4,7 @@ import { Rating } from "@smastrom/react-rating";
 
 import "@smastrom/react-rating/style.css";
 import { add, addwl } from "../../utils/utils";
+import { Helmet } from "react-helmet";
 
 const Details = () => {
   const { id } = useParams();
@@ -29,6 +30,9 @@ const Details = () => {
   };
   return (
     <div>
+      <Helmet>
+        <title>Gadget | Details</title>
+      </Helmet>
       <div className="bg-[#9538E2] text-white rounded-2xl">
         <h5 className="text-3xl pt-8 pb-4 font-bold">Product Details</h5>
         <p className="pb-44 w-7/12 mx-auto">

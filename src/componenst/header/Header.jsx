@@ -42,6 +42,9 @@ const Header = () => {
             <li>
               <NavLink to={"/dashboard"}>Dashboard</NavLink>
             </li>
+            <li>
+              <NavLink to={"/contact"}>Contact</NavLink>
+            </li>
           </ul>
         </div>
         <a className="btn btn-ghost text-xl">Gadget Heaven</a>
@@ -56,6 +59,9 @@ const Header = () => {
           </li>
           <li>
             <NavLink to={"/dashboard"}>Dashboard</NavLink>
+          </li>
+          <li>
+            <NavLink to={"/contact"}>Contact</NavLink>
           </li>
         </ul>
       </div>

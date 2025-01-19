@@ -1,7 +1,15 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 const Static = () => {
-  return <div>this is static</div>;
+  return (
+    <div>
+      <Helmet>
+        <title>Gadget | Static</title>
+      </Helmet>
+      <div>This is static</div>
+    </div>
+  );
 };
 
 export default Static;
